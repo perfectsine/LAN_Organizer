@@ -105,11 +105,12 @@ player8 = Player("Hoss",['csgo','dota2','payday2','l4d2','killingfloor','starcra
 #player8 = Player("Hoss",["l4d2","killingfloor"])
 player9 = Player("Corey",['dota2','diablo3','dungeondef','wowtcg','avalon','titanquest','firefly'])
 player10 = Player("Kris",['csgo','dota2','payday2','starcraft','ut3','wowtcg','bang','bf3','firefly','brink'])
+player11 = Player("Cody",['csgo','dota2','payday2','l4d2','killingfloor','starcraft','diablo3','dungeondef','ut3','wowtcg','bang','avalon','titanquest','bf3','firefly','CAH','brink','tl2'])
+
+players = [player0, player1, player2, player3, player4, player5, player6, player7, player8, player9, player10, player11]
  
-players = [player1, player2, player3, player4, player5, player6, player7, player8, player9, player10]
  
- 
-for group in find_groups(players, 4):
+for group in find_groups(players, 6):
     print group['members']
     print group['games']
     print
