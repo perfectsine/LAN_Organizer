@@ -101,10 +101,13 @@ player4 = Player("Pat", ["payday2", "l4d2", "killingfloor", "starcraft", "wowtcg
 player5 = Player("John", ["csgo", "dota2", "l4d2", "killingfloor", "starcraft", "dungeondef", "ut3", "wowtcg", "bang", "avalon", "bf3", "firefly", "nmrih", "brink", "CAH"])
 player6 = Player("Payton", ["csgo", "dota2", "payday2", "l4d2", "killingfloor", "starcraft", "dungeondef", "ut3", "wowtcg", "avalon", "firefly", "bf3", "nmrih", "orion2", "CAH"])
 player7 = Player("Justin", ["csgo", "payday2", "l4d2", "killingfloor", "starcraft", "dungeondef", "ut3", "wowtcg", "bang", "avalon", "bf3", "firefly", "nmrih", "orion2", "CAH"])
-player8 = Player("Cody", ["l4d2", "killingfloor"])
-player9 = Player("Corey", ["dota2", "diablo3", "dungeondef", "wowtcg", "avalon", "titanquest", "firefly"])
+player8 = Player("Hoss",['csgo','dota2','payday2','l4d2','killingfloor','starcraft','diablo3','dungeondef','ut3','wowtcg','bang','avalon','titanquest','bf3','firefly','nmrih','brink','tl2'])
+#player8 = Player("Hoss",["l4d2","killingfloor"])
+player9 = Player("Corey",['dota2','diablo3','dungeondef','wowtcg','avalon','titanquest','firefly'])
+player10 = Player("Kris",['csgo','dota2','payday2','starcraft','ut3','wowtcg','bang','bf3','firefly','brink'])
  
-players = [player0, player1, player2, player3, player4, player5, player6, player7, player8, player9]
+players = [player1, player2, player3, player4, player5, player6, player7, player8, player9, player10]
+ 
  
 for group in find_groups(players, 4):
     print group['members']
